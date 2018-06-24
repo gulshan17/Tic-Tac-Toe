@@ -1,0 +1,4 @@
+this file bugs like at the last chance it will throw an exception because aimove will return 0 since no spaces are present to be filled.
+
+Also condition for '-' at the button is checked twice;
+1. in actionListener block and the setData method also checks it.
